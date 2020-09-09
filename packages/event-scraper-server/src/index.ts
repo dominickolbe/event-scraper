@@ -9,7 +9,7 @@ const server = async () => {
   const app = new Koa();
   const router = new Router();
 
-  router.get("/api", async (ctx) => {
+  router.get("/", async (ctx) => {
     ctx.body = "Hello World.";
   });
 
