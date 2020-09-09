@@ -9,7 +9,8 @@
     "packages/event-scraper-server"
   ],
   "scripts": {
-    "start:dev:server": "yarn workspace event-scraper-server start:dev"
+    "start:dev:server": "yarn workspace event-scraper-server start:dev",
+    "start": "NODE_ENV=production yarn workspace event-scraper-server ts-node --transpile-only src/index.ts"
   },
   "dependencies": {
     "ts-node": "^9.0.0",
@@ -17,5 +18,9 @@
   },
   "devDependencies": {
     "prettier": "^2.1.1"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "yarn": "^1.22.4"
   }
 }
