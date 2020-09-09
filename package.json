@@ -5,6 +5,16 @@
   "private": true,
   "author": "Dominic Kolbe <kolbedominic@gmail.com>",
   "repository": "git@github.com:dominickolbe/event-scraper.git",
+  "workspaces": [
+    "packages/event-scraper-server"
+  ],
+  "scripts": {
+    "start:dev:server": "yarn workspace event-scraper-server start:dev"
+  },
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
   "devDependencies": {
     "prettier": "^2.1.1"
   }

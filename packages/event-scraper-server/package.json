@@ -1,0 +1,18 @@
+{
+  "name": "event-scraper-server",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon",
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
