@@ -1084,6 +1084,11 @@ only@~0.0.2:
   resolved "https://registry.yarnpkg.com/only/-/only-0.0.2.tgz#2afde84d03e50b9a8edc444e30610a70295edfb4"
   integrity sha1-Kv3oTQPlC5qO3EROMGEKcCle37Q=
 
+option-t@^23.0.0:
+  version "23.0.0"
+  resolved "https://registry.yarnpkg.com/option-t/-/option-t-23.0.0.tgz#c8dd593d3e1fce39c43653485d5e98bdfd7019f7"
+  integrity sha512-r1XDP3wRztuhNwUKQikTQf4DOfBBWrH2CQWZ38206118ArqdtTFGBPTe6/zdOU4Cs4QufIkKCrL52GPTxg+Ayg==
+
 p-cancelable@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/p-cancelable/-/p-cancelable-1.1.0.tgz#d078d15a3af409220c886f1d9a0ca2e441ab26cc"

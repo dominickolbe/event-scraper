@@ -17,7 +17,12 @@ const server = async () => {
   router.get("/api/events/:id", async (ctx) => {
     const eventId = parseInt(ctx.params.id);
     const event = await getEvent(eventId);
-    ctx.body = event;
+
+    if (event.ok) {
+      ctx.body = event.val;
+    } else {
+      ctx.response.status = 400;
+    }
   });
 
   app.use(router.routes());
