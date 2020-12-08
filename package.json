@@ -13,7 +13,7 @@
     "start": "NODE_ENV=production yarn workspace event-scraper-server ts-node --transpile-only src/index.ts"
   },
   "dependencies": {
-    "ts-node": "^9.0.0",
+    "ts-node": "^9.1.1",
     "typescript": "^4.0.2"
   },
   "devDependencies": {
