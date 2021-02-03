@@ -12,7 +12,7 @@
     "koa": "^2.13.0",
     "koa-router": "^9.4.0",
     "option-t": "^23.0.0",
-    "puppeteer": "^5.2.1"
+    "puppeteer": "^6.0.0"
   },
   "devDependencies": {
     "@types/koa": "^2.11.4",
