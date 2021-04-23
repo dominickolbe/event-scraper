@@ -11,7 +11,7 @@
     "dotenv-safe": "^8.2.0",
     "koa": "^2.13.0",
     "koa-router": "^9.4.0",
-    "option-t": "^23.0.0",
+    "option-t": "^25.4.0",
     "puppeteer": "^5.2.1"
   },
   "devDependencies": {
